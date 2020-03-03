@@ -63,7 +63,7 @@ ps -ef|grep -i "$PROCESS"|grep -v grep|grep -v "$SCRIPTNAME" >/dev/null
 
 PROC_RC=$?
 
-if (( $? == 0 )) 
+if (( $PROC_RC == 0 )) 
 then
  echo "The process is currently running and is being monitored"
  RUN="Y"
