@@ -10,3 +10,4 @@ monitor_and_log.sh              -> Monitor a process and write to log files.
 mon_local_process.sh            -> Monitor a process and start it when it's down as well as write to log files.
 monitor_http.sh                 -> Monitor a website, check for error codes and shout when there's one.
 ping.sh                         -> ping a particular node in 2 rounds and send alert only when the second round of ping has failed.
+log_key_strokes.sh		-> Logs keystrokes of a user and emails it to centralized server
